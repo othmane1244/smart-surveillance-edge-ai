@@ -1,0 +1,36 @@
+# Environnement Python
+hailo_env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables d'environnement (NE JAMAIS publier)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Modèles (trop lourds pour GitHub)
+*.pt
+*.onnx
+*.hef
+
+# Screenshots webcam
+screenshot_*.jpg
+
+# Node.js (dashboard)
+node_modules/
+.next/
+
+# Claude Code (mémoire locale, ne pas publier)
+.claude/
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
